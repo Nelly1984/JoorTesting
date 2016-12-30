@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regresion Suite" parallel="tests">
+  <test name="Internet Explorer Tests">
+  	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.joor.test.TS001_TC001_SendAMessageSelectingConnections"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
